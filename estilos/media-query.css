@@ -19,25 +19,41 @@
         float: right;
         width: 65%;
     }
+
+    #formulario > h1 {
+        font-size: 1.8em;
+    }
+
+    #formulario > p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #510485);
     }
-    
+
     #login {
         width: 950px;
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login > #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
     }
 }
